@@ -14,7 +14,17 @@ data safely resides in the elements.
 test programs that show how to use this library as a 'sorted list' and 'map'.**
 <br>
 <br>
+<ins>**The source files in this repository are:**</ins>
 <br>
+<br>
+**generic_doubly_linked_list_library.c<br>
+generic_doubly_linked_list_library.h<br>
+test_generic_doubly_linked_list_library_as_list.c<br>
+test_generic_doubly_linked_list_library_as_map.c**
+<br>
+<br>
+<br>
+
 **An example of using this library as a 'list' is:**
 
 ```
@@ -25,7 +35,7 @@ elem = gdlll_get_front_element(...);
 ```
 <br>
 
-**An example of using this library as a sorted 'list' is:**
+**An example of using this library as a 'sorted list' is:**
 
 ```
 gdlll_add_element_sorted_ascending(...);
@@ -44,7 +54,7 @@ if (gdlll_peek_matching_element(...) == NULL) {
 ```
 <br>
 
-**An example of using this library as an 'unordered_set' is:**
+**An example of using this library as an 'unordered set' is:**
 
 ```
 if (gdlll_peek_matching_element(...) == NULL) {
