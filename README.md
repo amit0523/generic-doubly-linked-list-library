@@ -16,12 +16,13 @@ test programs that show how to use this library as a 'sorted list' and 'map'.**
 <br>
 <ins>**The source files in this repository are:**</ins>
 <br>
+<br>
 **generic_doubly_linked_list_library.c<br>
 generic_doubly_linked_list_library.h<br>
 test_generic_doubly_linked_list_library_as_list.c<br>
 test_generic_doubly_linked_list_library_as_map.c**
 <br>
-<br>
+<hr>
 
 **An example of using this library as a 'list' is:**
 
