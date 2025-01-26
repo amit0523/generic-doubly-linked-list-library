@@ -23,7 +23,6 @@ test_generic_doubly_linked_list_library_as_list.c<br>
 test_generic_doubly_linked_list_library_as_map.c**
 <br>
 <br>
-<br>
 
 **An example of using this library as a 'list' is:**
 
