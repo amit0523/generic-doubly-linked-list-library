@@ -53,7 +53,7 @@ if (gdlll_peek_matching_element(...) == NULL) {
 ```
 <br>
 
-**An example of using this library as an 'unordered set' is:**
+**An example of using this library as an 'unordered_set' is:**
 
 ```
 if (gdlll_peek_matching_element(...) == NULL) {
