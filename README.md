@@ -81,8 +81,7 @@ strncpy(mm->key, "abcd", 10);
 mm->key[4] = 0;
 mm->value = 20;
 
-dup_elem = gdlll_peek_matching_element(gc, mm, get_struct_len(mm), 
-                                       compare_elems);                   
+dup_elem = gdlll_peek_matching_element(gc, mm, get_struct_len(mm), compare_elems);                   
 if (dup_elem == NULL) {                                                  
     gdlll_add_element_sorted_ascending(...);                   
 } else { // if you want to replace existing value of the key            
