@@ -10,7 +10,7 @@ Another unique feature of this library is that it copies user's data into its
 elements, so the user doesn't have to keep his/her copy of data around. User's
 data safely resides in the elements.
 
-**I have included the code of the library in this mail and also the code of the
+**I have uploaded the code of the C library (generic_doubly_linked_list_library.c) and also the code of the
 test programs that show how to use this library as a 'sorted list' and 'map'.**
 <br>
 <br>
