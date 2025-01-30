@@ -28,9 +28,15 @@ test_generic_doubly_linked_list_library_as_map.c**
 
 ```
 gdlll_add_element_to_front(...);
+or,
+gdlll_add_element_to_back(...);
 ...
 ...
 elem = gdlll_get_front_element(...);
+or,
+elem = gdlll_get_last_element(...);
+or,
+elem = gdlll_get_matching_element(...);
 ```
 <br>
 
@@ -41,6 +47,10 @@ gdlll_add_element_sorted_ascending(...);
 ...
 ...
 elem = gdlll_get_front_element(...);
+or,
+elem = gdlll_get_last_element(...);
+or,
+elem = gdlll_get_matching_element(...);
 ```
 <br>
 
@@ -58,6 +68,8 @@ if (gdlll_peek_matching_element(...) == NULL) {
 ```
 if (gdlll_peek_matching_element(...) == NULL) {
     gdlll_add_element_to_front(...);
+    or,
+    gdlll_add_element_to_back(...);
 }
 ```
 <br>
@@ -87,6 +99,12 @@ if (dup_elem == NULL) {
 } else { // if you want to replace existing value of the key            
     gdlll_replace_data_in_matching_element(...);
 }                                                                        
+
+elem = gdlll_get_front_element(...);
+or,
+elem = gdlll_get_last_element(...);
+or,
+elem = gdlll_get_matching_element(...);
 ```
 
 ---- End of README ----
