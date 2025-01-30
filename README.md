@@ -24,6 +24,33 @@ test_generic_doubly_linked_list_library_as_map.c**
 <br>
 <hr>
 
+**The functions available in this library are:**
+```
+gdlll_init_gdll_container()
+gdlll_create_standalone_element()
+gdlll_remove_element_from_list()
+insert_element_before_element()
+gdlll_get_total_number_of_elements_in_gdll_container()
+gdlll_add_element_to_front()
+gdlll_add_element_to_back()
+gdlll_add_element_sorted_ascending()
+gdlll_add_element_sorted_descending()
+gdlll_get_front_element()
+gdlll_get_last_element()
+gdlll_get_matching_element()
+gdlll_peek_front_element()
+gdlll_peek_last_element()
+gdlll_peek_matching_element()
+gdlll_replace_data_in_matching_element()
+gdlll_delete_front_element()
+gdlll_delete_last_element()
+gdlll_delete_matching_element()
+gdlll_delete_standalone_element()
+gdlll_delete_all_elements_in_gdll_container()
+gdlll_delete_gdll_container()
+```
+<hr>
+
 **An example of using this library as a 'list' is:**
 
 ```
