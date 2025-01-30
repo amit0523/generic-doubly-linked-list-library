@@ -29,7 +29,6 @@ test_generic_doubly_linked_list_library_as_map.c**
 gdlll_init_gdll_container()
 gdlll_create_standalone_element()
 gdlll_remove_element_from_list()
-insert_element_before_element()
 gdlll_get_total_number_of_elements_in_gdll_container()
 gdlll_add_element_to_front()
 gdlll_add_element_to_back()
