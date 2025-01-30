@@ -44,6 +44,8 @@ elem = gdlll_get_matching_element(...);
 
 ```
 gdlll_add_element_sorted_ascending(...);
+or,
+gdlll_add_element_sorted_descending(...);
 ...
 ...
 elem = gdlll_get_front_element(...);
@@ -59,6 +61,8 @@ elem = gdlll_get_matching_element(...);
 ```
 if (gdlll_peek_matching_element(...) == NULL) {
     gdlll_add_element_sorted_ascending(...);
+    or,
+    gdlll_add_element_sorted_descending(...);
 }
 ```
 <br>
@@ -99,7 +103,8 @@ if (dup_elem == NULL) {
 } else { // if you want to replace existing value of the key            
     gdlll_replace_data_in_matching_element(...);
 }                                                                        
-
+...
+...
 elem = gdlll_get_front_element(...);
 or,
 elem = gdlll_get_last_element(...);
