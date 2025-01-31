@@ -11,7 +11,7 @@ elements, so the user doesn't have to keep his/her copy of data around. User's
 data safely resides in the elements.
 
 **I have uploaded the code of the C library (generic_doubly_linked_list_library.c) and also the code of the
-test programs that show how to use this library as a 'sorted list' and 'map'.**
+test programs that show how to use this library as a 'sorted list' and as a 'map'.**
 <br>
 <br>
 <ins>**The source files in this repository are:**</ins>
@@ -50,7 +50,7 @@ gdlll_delete_gdll_container()
 ```
 <hr>
 
-**An example of using this library as a 'list' is:**
+**Some pseudocode for using this library as a 'list' is:**
 
 ```
 gdlll_add_element_to_front(...);
@@ -66,7 +66,7 @@ elem = gdlll_get_matching_element(...);
 ```
 <br>
 
-**An example of using this library as a 'sorted list' is:**
+**Some pseudocode for using this library as a 'sorted list' is:**
 
 ```
 gdlll_add_element_sorted_ascending(...);
@@ -82,7 +82,7 @@ elem = gdlll_get_matching_element(...);
 ```
 <br>
 
-**An example of using this library as a 'set' is:**
+**Some pseudocode for using this library as a 'set' is:**
 
 ```
 if (gdlll_peek_matching_element(...) == NULL) {
@@ -93,7 +93,7 @@ if (gdlll_peek_matching_element(...) == NULL) {
 ```
 <br>
 
-**An example of using this library as an 'unordered_set' is:**
+**Some pseudocode for using this library as an 'unordered_set' is:**
 
 ```
 if (gdlll_peek_matching_element(...) == NULL) {
@@ -104,7 +104,7 @@ if (gdlll_peek_matching_element(...) == NULL) {
 ```
 <br>
 
-**An example of using this library as a 'map' is:**
+**Some pseudocode for using this library as a 'map' is:**
 
 ```
 For using this library as a 'map', etc, your 'data_ptr' must point to a structure
