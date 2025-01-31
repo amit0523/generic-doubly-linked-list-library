@@ -123,11 +123,13 @@ strncpy(mm->key, "abcd", 10);
 mm->key[4] = 0;
 mm->value = 20;
 
-dup_elem = gdlll_peek_matching_element(gc, mm, get_struct_len(mm), compare_elems);                   
-if (dup_elem == NULL) {                                                  
-    gdlll_add_element_sorted_ascending(...);                   
-} else { // if you want to replace existing value of the key            
-    gdlll_replace_data_in_matching_element(...);
+dup_elem = gdlll_peek_matching_element(gc, mm, sizeof(*mm), compare_elems);
+if (dup_elem == NULL) {
+    gdlll_add_element_sorted_ascending(gc, mm, sizeof(*mm), compare_elems);
+} else { // if you want to replace exisiting value of the key
+    gdlll_replace_data_in_matching_element(gc, dup_elem->data_ptr,
+                               sizeof (*(struct mymap *)(dup_elem->data_ptr)),
+                               mm, sizeof(*mm), compare_elems);
 }                                                                        
 ...
 ...
