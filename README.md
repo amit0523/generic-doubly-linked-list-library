@@ -4,7 +4,8 @@ unordered_map, unordered_set, unordered_multimap, and unordered_multiset
 (basically almost all C++ STL data structures).
 
 For using this library as different C++ STL data structures you have to use
-different combinations of functions provided in this library.
+different combinations of functions provided in this library. This library has only
+21 functions and one static function (total 22 functions).
 
 **So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
 they can simply use this library and speed up their development.**
