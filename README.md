@@ -9,12 +9,12 @@ different combinations of functions provided in this library.
 **So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
 they can simply use this library and speed up their development.**
 
-Another unique feature of this library is that it copies user's data into its
-elements, so the user doesn't have to keep his/her copy of data around. User's
-data safely resides in the elements. However, the library can't do deep copy because it
-doesn't know whether the user data has pointers. So, the user can free its top level data but the user
-should not free embedded pointers. These embedded pointers will be freed by the user's callback function
-when an element is getting deleted.
+Another unique feature of this library is that it copies user's data into its elements,
+so the user doesn't have to keep his/her copy of data around. User's data safely resides
+in the elements. However, the library can't do deep copy because it doesn't know whether
+the user data has pointers. So, the user can free its top level data but the user
+should not free embedded pointers. These embedded pointers will be freed by the user's
+callback function when an element is getting deleted.
 
 Example:
 
@@ -31,9 +31,10 @@ md->str = malloc(10);
 gdlll_add_element_to_front(..., md, ...);
 free(md);
 
-Now, you can free 'md' but you should not free 'md->str'. 'md->str' will be freed by calling your free function
-(function_ptr_to_call_before_deleting_data) when the element is getting deleted. This function was provided by you
-when you initialized the container: gdlll_init_gdll_container(void *function_ptr_to_call_before_deleting_data).
+Now, you can free 'md' but you should not free 'md->str'. 'md->str' will be freed by
+calling your free function (function_ptr_to_call_before_deleting_data) when the element
+is getting deleted. This function was provided by you when you initialized the container:
+gdlll_init_gdll_container(void *function_ptr_to_call_before_deleting_data).
 ```
 
 
