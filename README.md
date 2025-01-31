@@ -6,6 +6,9 @@ unordered_map, unordered_set, unordered_multimap, and unordered_multiset
 For using this library as different C++ STL data structures you have to use
 different combinations of functions provided in this library.
 
+**So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
+they can simply use this library and speed up their development.**
+
 Another unique feature of this library is that it copies user's data into its
 elements, so the user doesn't have to keep his/her copy of data around. User's
 data safely resides in the elements.
