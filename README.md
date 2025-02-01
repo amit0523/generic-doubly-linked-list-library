@@ -5,7 +5,7 @@ unordered_map, unordered_set, unordered_multimap, and unordered_multiset
 
 For using this library as different C++ STL data structures you have to use
 different combinations of functions provided in this library. This library has only
-21 functions and one static function (total 22 functions).
+19 functions and 3 static functions (total 22 functions).
 
 **So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
 they can simply use this library and speed up their development.**
@@ -56,8 +56,6 @@ test_generic_doubly_linked_list_library_as_map.c**
 **The functions available in this library are:**
 ```
 gdlll_init_gdll_container()
-gdlll_create_standalone_element()
-gdlll_remove_element_from_list()
 gdlll_get_total_number_of_elements_in_gdll_container()
 gdlll_add_element_to_front()
 gdlll_add_element_to_back()
