@@ -5,7 +5,7 @@ unordered_map, unordered_set, unordered_multimap, and unordered_multiset
 
 For using this library as different C++ STL data structures you have to use
 different combinations of functions provided in this library. This library has only
-19 functions and 3 static functions (total 22 functions).
+22 functions (including 3 static functions).
 
 **So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
 they can simply use this library and speed up their development.**
@@ -74,6 +74,11 @@ gdlll_delete_matching_element()
 gdlll_delete_standalone_element()
 gdlll_delete_all_elements_in_gdll_container()
 gdlll_delete_gdll_container()
+
+/* static functions */
+gdlll_create_standalone_element()
+gdlll_remove_element_from_list()
+insert_element_before_element()
 ```
 <hr>
 
