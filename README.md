@@ -78,7 +78,7 @@ gdlll_delete_gdll_container()
 /* static functions */
 gdlll_create_standalone_element()
 gdlll_remove_element_from_list()
-insert_element_before_element()
+gdlll_insert_element_before_element()
 ```
 <hr>
 
