@@ -1,7 +1,7 @@
 I have implemented a C library (**generic_doubly_linked_list_library.c**) that can
 be used as a C++ STL list, map, set, stack, queue, deque, multimap, multiset,
 unordered_map, unordered_set, unordered_multimap, and unordered_multiset
-(basically almost all C++ STL data structures).
+(basically all C++ STL data structures except Vector).
 
 For using this library as different C++ STL data structures you have to use
 different combinations of functions provided in this library. This library has only
