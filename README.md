@@ -3,19 +3,24 @@ be used as a C++ STL list, map, set, stack, queue, deque, multimap, multiset,
 unordered_map, unordered_set, unordered_multimap, and unordered_multiset
 (basically all C++ STL data structures except Vector).
 
-For using this library as different C++ STL data structures you have to use
-different combinations of functions provided in this library. This library has only
-22 functions (including 3 static functions).
-
 **So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
 they can simply use this library and speed up their development.**
 
-Another unique feature of this library is that it copies user's data into its elements,
-so the user doesn't have to keep his/her copy of data around. User's data safely resides
-in the elements. However, the library can't do deep copy because it doesn't know whether
-the user data has pointers. So, the user can free its top level data but the user
-should not free embedded pointers. These embedded pointers will be freed by the user's
-callback function when an element is getting deleted.
+This library has 3 unique features:
+
+1. You can store any data type in this library.
+   
+2. You can use this library as different C++ STL data structures by using
+   different combinations of functions provided in this library. This library
+   has only 22 functions (including 3 static functions).
+
+3. This library copies user's data into its elements, so the user
+   doesn't have to keep his/her copy of data around. User's data safely resides
+   in the elements. However, the library can't do deep copy because it
+   doesn't know whether the user data has pointers. So, the user can free
+   its top level data but the user should not free embedded pointers.
+   These embedded pointers will be freed by the user's callback function
+   when an element is getting deleted.
 
 Example:
 
