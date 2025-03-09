@@ -3,7 +3,7 @@ be used as a C++ STL list, map, set, stack, queue, deque, multimap, multiset,
 unordered_map, unordered_set, unordered_multimap, and unordered_multiset
 (basically all C++ STL data structures except vector).
 
-_So, now the developers don't need to write code for implementing data structure(s) (like list, etc.),
+_So, now the developers don't need to write code for implementing data structure(s) (like list, map, set, etc.),
 they can simply use this library and speed up their development._
 
 This library has 3 unique features:
